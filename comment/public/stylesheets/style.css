@@ -1,8 +1,56 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: green;
 }
 
-a {
-  color: #00B7FF;
+#site-title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+}
+
+#site-name {
+  color: red;
+  font-size: xx-large;
+}
+
+#site-description {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+}
+
+#site-desc {
+  color: red;
+  font-size: large;
+}
+
+#meat {
+  position: absolute;
+  top: 250px;
+  background-color: darkred;
+  padding: 50px;
+  width: 68.5%;
+  left: 12%;
+  margin: auto;
+  text-align: center;
+}
+
+#turkey {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 35px;
+  right: 70%;
+}
+
+#kramer {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 35px;
+  right: 15%;
 }
