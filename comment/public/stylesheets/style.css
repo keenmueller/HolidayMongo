@@ -19,6 +19,10 @@ body {
   color: black;
 }
 
+#theForm{
+  color: black;
+}
+
 #site-description {
   width: 100%;
   margin: auto;
@@ -37,10 +41,11 @@ body {
   top: 250px;
   background-color: darkred;
   padding: 50px;
-  width: 68.5%;
-  left: 12%;
+  width: 85%;
+  left: 8%;
   margin: auto;
   text-align: center;
+  font-size: large;
 }
 
 #turkey {
