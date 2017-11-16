@@ -19,7 +19,7 @@ function controller($scope,$http){
 
   $scope.getAll = function() {
     return $http.get('/comments').success(function(data){
-      angular.copy(data, $scope.comments);
+      $scope.comments = data;
     });
   };
 
