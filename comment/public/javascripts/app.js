@@ -15,18 +15,17 @@ angular.module('comment', [])
  $scope.incrementUpvotes = function(comment) {
       comment.upvotes += 1;
     };
-  },
   $scope.getAll = function() {
     return $http.get('/comments').success(function(data){
       angular.copy(data, $scope.comments);
     });
-  },
-  $scope.getAll(),
+  };
+  $scope.getAll();
 
   $scope.create = function(comment) {
     return $http.post('/comments', comment).success(function(data){
       $scope.comments.push(data);
     });
-  },
+  };
 
 ]);
